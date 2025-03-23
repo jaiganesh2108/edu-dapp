@@ -1,0 +1,73 @@
+/* Home.css */
+.home-wrapper {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.spline-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.brand {
+  color: #00aaff;
+}
+
+.tagline {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.connect-btn {
+  padding: 12px 24px;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.connect-btn:hover {
+  background-color: #0088cc;
+}
+
+.connect-btn:active {
+  background-color: #0077b3;
+}
