@@ -30,7 +30,7 @@ export default function Dashboard() {
       <Navbar />
       <div className="dashboard-container">
         <header className="dashboard-header">
-          <h1 className="dashboard-title">🎓 EduChain Dashboard</h1>
+          <h1 className="dashboard-title">🎓 EduChain Dashboard</h1> //title of the dashboard
           <p className="dashboard-subtitle">
             Manage and secure your academic credentials with ease.
           </p>
