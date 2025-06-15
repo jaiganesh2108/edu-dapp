@@ -1,4 +1,6 @@
 # React + Vite
+Certificate Verification with Web3
+HOST link:  https://edu-chain.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
